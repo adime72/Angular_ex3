@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="" lang="en">
+    <head>
+        <title></title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+
+    </head>
+    <body >
+    <h3>  first number  <input type="number" ng-model="num1"></h3>
+    <h3>  seconed number  <input type="number" ng-model="num2">  </h3>
+    <h3>The output </h3>
+
+<div  ng-init=" num1=1; num2=1">
+{{num1}} * {{num2}} = {{num1 * num2}} <br>
+ {{num1}} + {{num2}} = {{num1 + num2}} <br>
+ {{num1}} - {{num2}} =  {{num1 - num2}} <br>
+ {{num1}} / {{num2}} =  {{num1 / num2}} <br>
+</div>
+    </body>
+</html>
